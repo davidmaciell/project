@@ -5,10 +5,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header"> 
+        <h1>Tapeçaria</h1>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> andddd save to reload.
+          Sofás 
         </p>
         <a
           className="App-link"
