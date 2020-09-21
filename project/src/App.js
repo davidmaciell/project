@@ -1,12 +1,14 @@
 import React from 'react';
 import logo from './sofaa.svg';
 import './App.css';
+import Nav from './nav'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header"> 
         <h1>Tapeçaria</h1>
+        <Nav/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Sofás 
